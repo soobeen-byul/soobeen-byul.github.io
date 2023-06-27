@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #d9afd9 15%, #97d9e1 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #d9afd9 15%, #97d9e1 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #d9afd9 15%, #97d9e1 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #d9afd9 15%, #97d9e1 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2291,7 +2291,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #dad4ec;
 		}
 
 		.icon.style2 {
@@ -2884,7 +2884,7 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #dad4ec;
 			}
 
 			.statistics li.style2 {
@@ -3546,10 +3546,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #dad4ec, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #dad4ec, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #dad4ec, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #dad4ec, #a89cc8, #8cc9f0);
 		}
 
 		#main table tbody tr {
