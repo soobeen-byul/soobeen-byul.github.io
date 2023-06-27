@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>KOPIS_PROJECT_2</title>
+		<meta name="description" content="KOPIS Data Analysis Project_2">
+		<meta property="og:type" content="website"> 
+		<meta property="og:title" content="KOPIS_PROJECT_2">
+		<meta property="og:description" content="KOPIS Data Analysis Project_2">
+		<meta property="og:image" content="http://soobeen-byul.github.io/images/planet_logo.png">
+		<meta property="og:url" content="http://soobeen-byul.github.io/kopis_2">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>KOPIS</h1>
+						<p>장르별 흥행 요인 도출 및 비교 분석 - 코로나를 기준으로</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="../images/pic04.jpg" alt="" /></span>
+								<h2><b>🚩 Introduction</b></h2>
+								<p>TOPIC : 장르별 흥행 요인 도출 및 비교 분석 - 코로나를 기준으로<br/><a href="https://www.kopis.or.kr/">DATA SOURCE : KOPIS (공연예술통합전산망)</a><br/>PERIOD : 2021.  11. 01. ~ 2022. 02. 01.</p>
+								<hr>
+								<h2><b>💡 Defining Problem</b></h2>
+								<p>선행 분석인 <a href="kopis_1.html">‘(1) 공연매출과 보복소비와의 연관성 분석’</a>을 통해 코로나19 이후 뮤지컬 장르 수요 쏠림 현상 발생 및 장르별 양극화 현상 심화 확인함</p>
+								<p>위와 같은 현상이 타 장르에서도 발생하였을 것으로 예상, 데이터 기반 장르별 공연 흥행 결정 요인 도출을 통해 흥행 원인을 규명하고 코로나19 전후, 흥행 결정 요인에 차이가 있는지 확인하고자 함</p>
+								<hr>
+								<h2><b>🔎 Project Brief</b></h2>
+								<p>마케팅 믹스(4P) 기반 구분한 세부 변수(공연작품, 가격, 공연장 시설, 프로모션)에 맞춰 후보 독립 변수 선정 및 데이터셋 구축</p>
+								<p>독립 변수들과 종속 변수의 영향관계를 확인하기 위해 회귀 분석 실시</p>
+								<p>앞선 분석으로 선정된 최종 독립변수들의 중요도를 확인하고자 랜덤포레스트 실시. 위 결과를 기반으로 코로나 전후 상위 3개 변수를 흥행 요인으로 도출 및 중요도 변화 확인</p>
+								<hr>
+								<h2><b>🙌 Result</b></h2>
+								<ol>
+									<li>
+										<h4>뮤지컬</h4>
+										<p>코로나 전후 대극장 뮤지컬의 티켓 가격 상승 및 매출액 비율 증가를 확인함. 이에 뮤지컬은 지속해서 대극장 공연에 대한 수요가 증가할 것으로 예상함.</p>
+										<p>또한, 현황 조사를 통해 제작사에서 코로나에 대한 대응책으로 가격상승 및 공연기간 증가 등 다양한 대책을 실시했음을 확인</p>
+									</li>
+									<li>
+										<h4>연극</h4>
+										<p>코로나 이후, 새로이 떠오른 중요 흥행 요인은 유투브 조회수임을 확인. 이에 대한 원인은 온라인 플랫폼 이용률 변화 및 현황 조사를 통해 온라인 플랫폼 이용 증가가 원인일 것으로 파악</p>
+										<p>또한, 코로나 이후 감염 예방 및 대응이 가능한 극장에서 진행하는 공연에 대한 수요가 증가한 반면, 충성고객이 아닌 일반고객을 대상으로 하는 오픈런 연극이 크게 하락세를 보임을 확인</p>
+									</li>
+									<li>
+										<h4>클래식</h4>
+										<p>코로나 전후 내한공연 수 비교를 통해, 코로나 이전에는 내한공연의 영향이 컸지만 코로나 이후 내한공연 건수 감소 및 매체의 영향 증가로 크로스오버 그룹 및 국내 클래식 아티스트에 대한 수요가 증가함을 확인</p>
+									</li>
+								</ol>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
