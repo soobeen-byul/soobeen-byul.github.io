@@ -14,7 +14,7 @@ code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
+tfoot, thead, tr, th, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
@@ -121,7 +121,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		/* background-color: #935d8c; */
+		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
