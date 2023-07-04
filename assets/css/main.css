@@ -2727,6 +2727,7 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 			text-align: left;
+			color : rgba(0, 0, 0, 0.65);
 		}
 
 		table th {
