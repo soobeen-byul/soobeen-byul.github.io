@@ -1,0 +1,181 @@
+`<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>nGRINDER_TEAM_PROJECT</title>
+		<!-- <meta name="description" content="Data Engineering/Data Analysis/Dev Portpolio of @soobeen-byul"> -->
+		<!-- <meta property="og:type" content="website">  -->
+		<!-- <meta property="og:title" content="soobeen-byul.log"> -->
+		<!-- <meta property="og:description" content="Data Engineering/Data Analysis/Dev Portpolio of @soobeen-byul"> -->
+		<!-- <meta property="og:image" content="http://soobeen-byul.github.io/images/planet_logo.png"> -->
+		<!-- <meta property="og:url" content="http://soobeen-byul.github.io/"> -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HS2FFK71B"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<!-- Header -->
+					<header id="header">
+						<h1>ngrinder Team Project</h1>
+						<p>ngrinder를 이용한 web server 부하 테스트</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Architecture</a></li>
+							<li><a href="#second">Project Description</a></li>
+							<li><a href="#result">ngrinder Test Result</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+					<!-- Introduction -->
+						<section id="intro" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>💡ngrinder를 이용한 web server 부하 테스트</h2>
+									</header>
+									<div>✔️ Nginx와 Apache HTTPD를 활용하여 Web Server에 load balancing 구현</div>
+									<div>✔️ Ngrinder를 활용하여 Web Server에 대한 Scale up&down 또는 in&out을 통해 부하 테스트를 진행하며 최적 환경 탐색</div>
+								</div>
+							</div>
+							<div>
+								<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> 
+								<img src="https://img.shields.io/badge/nGrinder-03C75A?style=for-the-badge&logo=Naver&logoColor=white">
+								<img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">
+								<img src="https://img.shields.io/badge/Apache%20HTTPD-D22128?style=for-the-badge&logo=Apache&logoColor=white">
+							</div>
+						</section>
+					
+						<section id="first" class="main special">
+							<header class="major">
+								<h2>Architecture</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<span class="icon major solid style5 fa-server "></span>
+									<h3><b><span style="background-color:rgba(106, 163, 194, 0.1)">&nbsp Web Server - Nginx + httpd &nbsp</span></b><br>김인성</h3>
+								</li>
+								<li>
+									<span class="icon major solid style3 fa-users"></span>
+									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Agent &nbsp</span></b><br>이양희    조재호</h3>
+								</li>
+								<li>
+									<span class="icon solid major style1 fa-gamepad"></span>
+									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Controller &nbsp</span></b><br>황수빈</h3>
+								</li>
+							</ul>
+							<!-- <div style="text-align: left;">
+								<h3><b>Web Server</b></h3>
+								<div>Nginx + httpd </div>
+								<p></p>
+							</div>
+							<div style="text-align: left;">
+								<h3><b>Ngrinder</b></h3>
+								<div>dfdsf</div>
+							</div> -->
+						</section>
+
+						<section id="second" class="main special">
+							<header class="major">
+								<h2>Project Description</h2>
+								<div style="text-align: left;">
+									<h3><b>1. Web Server 구축하기</b></h3>
+									<div>
+										<h4>1-1. Apache HTTPD </h4>
+										<span>
+											<span>&nbsp&nbsp&nbsp&nbsp- webpage를 구현해놓은 git repository를 clone 후 해당 page를 띄우기<br></span>
+											<span>&nbsp&nbsp&nbsp&nbsp- crontab을 활용하여 매분마다 git pull 실행하여 변경사항을 주기적으로 갱신<br></span>
+											<br>
+										</span>
+										<h4>1-2. Load Balancing</h4>
+										<span>
+											<span>&nbsp&nbsp&nbsp&nbsp- httpd server를 n개 구축 후 nginx를 로드 밸런서로 활용하여 n개의 server에 대한 로드 밸런싱 구현<br></span>
+											<br>
+										</span>
+									</div>
+								</div>
+								<div style="text-align: left;">
+									<h3><b>2. Scale UP & DOWN</b></h3>
+									<div>aa</div>
+									<p></p>
+								</div>
+								<div style="text-align: left;">
+									<h3><b>3. Scale IN & OUT</b></h3>
+									<div>bb</div>
+								</div>
+								<div style="text-align: left;">
+									<h3><b>4. nGrinder Test Env </b></h3>
+									<div>bb</div>
+								</div>
+							</header>
+							<!-- <footer class="major">
+								<ul class="actions special">
+									<li><a href="generic.html" class="button primary">Get Started</a></li>
+									<li><a href="generic.html" class="button">Learn More</a></li>
+								</ul>
+							</footer> -->
+						</section>
+
+						<section id="result" class="main special">
+							<header class="major">
+								<h2>nGrinder Test Result</h2>
+								<p>설명설명</p>
+							</header>
+					
+							
+						</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Profile</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>경기도 구리시</dd>
+								<dt>Email</dt>
+								<dd><a href="#">soobeen.byul@gmail.com</a></dd>
+							</dl>
+						</section> -->
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
