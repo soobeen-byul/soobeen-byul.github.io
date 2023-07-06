@@ -4,4 +4,5 @@
 
 ## Info
 - [Web URL](https://soobeen-byul.github.io/)
+- [Firebase Hosting Url](https://soobeenbyul-log.web.app/)
 - [Template Source - html5up](https://html5up.net/)
