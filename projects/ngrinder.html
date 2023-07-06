@@ -1,9 +1,4 @@
 `<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>nGRINDER_TEAM_PROJECT</title>
@@ -17,8 +12,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HS2FFK71B"></script>
 	</head>
 	<body class="is-preload">
 
@@ -71,74 +64,151 @@
 							<ul class="features">
 								<li>
 									<span class="icon major solid style5 fa-server "></span>
-									<h3><b><span style="background-color:rgba(106, 163, 194, 0.1)">&nbsp Web Server - Nginx + httpd &nbsp</span></b><br>김인성</h3>
+									<h3><b><span style="background-color:rgba(106, 163, 194, 0.1)">&nbsp Web Server - Nginx + httpd &nbsp</span></b><br><a href="https://github.com/Merlinkim">김인성</a></h3>
 								</li>
 								<li>
 									<span class="icon major solid style3 fa-users"></span>
-									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Agent &nbsp</span></b><br>이양희    조재호</h3>
+									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Agent &nbsp</span></b><br><a href="https://github.com/iamyanghee">이양희</a>&nbsp;&nbsp;<a href="https://github.com/datajcthemax">조재호</a></h3>
 								</li>
 								<li>
 									<span class="icon solid major style1 fa-gamepad"></span>
-									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Controller &nbsp</span></b><br>황수빈</h3>
+									<h3><b><span style="background-color:rgba(106, 163, 194,0.1)">&nbsp ngrinder Controller &nbsp</span></b><br><a href="https://github.com/soobeen-byul">황수빈</a></h3>
 								</li>
 							</ul>
-							<!-- <div style="text-align: left;">
-								<h3><b>Web Server</b></h3>
-								<div>Nginx + httpd </div>
-								<p></p>
-							</div>
-							<div style="text-align: left;">
-								<h3><b>Ngrinder</b></h3>
-								<div>dfdsf</div>
-							</div> -->
 						</section>
 
 						<section id="second" class="main special">
 							<header class="major">
 								<h2>Project Description</h2>
-								<div style="text-align: left;">
-									<h3><b>1. Web Server 구축하기</b></h3>
-									<div>
-										<h4>1-1. Apache HTTPD </h4>
-										<span>
-											<span>&nbsp&nbsp&nbsp&nbsp- webpage를 구현해놓은 git repository를 clone 후 해당 page를 띄우기<br></span>
-											<span>&nbsp&nbsp&nbsp&nbsp- crontab을 활용하여 매분마다 git pull 실행하여 변경사항을 주기적으로 갱신<br></span>
-											<br>
-										</span>
-										<h4>1-2. Load Balancing</h4>
-										<span>
-											<span>&nbsp&nbsp&nbsp&nbsp- httpd server를 n개 구축 후 nginx를 로드 밸런서로 활용하여 n개의 server에 대한 로드 밸런싱 구현<br></span>
-											<br>
-										</span>
-									</div>
-								</div>
-								<div style="text-align: left;">
-									<h3><b>2. Scale UP & DOWN</b></h3>
-									<div>aa</div>
-									<p></p>
-								</div>
-								<div style="text-align: left;">
-									<h3><b>3. Scale IN & OUT</b></h3>
-									<div>bb</div>
-								</div>
-								<div style="text-align: left;">
-									<h3><b>4. nGrinder Test Env </b></h3>
-									<div>bb</div>
-								</div>
 							</header>
-							<!-- <footer class="major">
-								<ul class="actions special">
-									<li><a href="generic.html" class="button primary">Get Started</a></li>
-									<li><a href="generic.html" class="button">Learn More</a></li>
-								</ul>
-							</footer> -->
+							<div style="text-align: left;">
+								<h3><b>1. Web Server 구축하기</b></h3>
+								<div>
+									<h4>1-1. Apache HTTPD </h4>
+									<span>
+										<span>&nbsp&nbsp&nbsp&nbsp- webpage를 구현해놓은 git repository를 clone 후 해당 page를 띄우기<br></span>
+										<span>&nbsp&nbsp&nbsp&nbsp- crontab을 활용하여 매분마다 git pull 실행하여 변경사항을 주기적으로 갱신<br></span>
+										<br>
+									</span>
+									<h4>1-2. Load Balancing</h4>
+									<span>
+										<span>&nbsp&nbsp&nbsp&nbsp- httpd server를 n개 구축 후 nginx를 로드 밸런서로 활용하여 n개의 server에 대한 로드 밸런싱 구현<br></span>
+										<br>
+									</span>
+								</div>
+							</div>
+							<div style="text-align: left;">
+								<h3><b>2. Scale UP & DOWN</b></h3>
+								<div>
+									&nbsp&nbsp&nbsp&nbsp - httpd server의 cpu/memory 리소스를 제한하여 진행<br><br>
+								</div>
+							</div>
+							<div style="text-align: left;">
+								<h3><b>3. Scale IN & OUT</b></h3>
+								<div>&nbsp&nbsp&nbsp&nbsp - httpd server의 수를 조정하여 진행<br><br>
+								</div>
+							</div>
+							<div style="text-align: left;">
+								<h3><b>4. nGrinder Test Environment </b></h3>
+								<div>&nbsp&nbsp&nbsp&nbsp - vuser 3,000<br>
+									&nbsp&nbsp&nbsp&nbsp - process 10, thread 300<br>
+									&nbsp&nbsp&nbsp&nbsp - thread로 ramp up<br>
+									&nbsp&nbsp&nbsp&nbsp - initial count 0, incremental step 1<br>
+									&nbsp&nbsp&nbsp&nbsp - initial sleep time 10초, interval 1초, grinder.sleep 1초<br>
+									&nbsp&nbsp&nbsp&nbsp - duration 6분</div>
+							</div>
 						</section>
 
 						<section id="result" class="main special">
 							<header class="major">
 								<h2>nGrinder Test Result</h2>
-								<p>설명설명</p>
 							</header>
+							<div style="text-align: left;">
+								<h3 ><b>✔️ Test Run & Error</b></h3>
+								<div>
+									<span class="image"><img src = '../images/prj_ngrinder/r&e.PNG' alt="" style="max-width:100%; height:auto;padding-bottom: 10px;"></span>
+									<br>
+									<ul>
+										<li>httpd 의 cpu와 memory를 변수로 9번의 테스트를 시도, 그 중 8번의 테스트 실행</li>
+										<li>모두 약 2분 전후를 기점으로 'too many errors'로 중단</li>
+										<li>표에 대한 추가 설명</li>
+										<p>
+										- executed : 실행된 전체 테스트의 수<br>
+										- succesful : executed 중 성공한 테스트의 수<br>
+										- error count : executed 중 에러난 테스트의 수<br>
+										- error rate : executed 중 에러난 테스트의 비율<br>
+										- error time : 첫 에러가 발생한 시간 (첫 에러 발생 이후 점차 에러가 증가하는 추세이므로 첫 발생 지점을 기록)</p>
+									</ul>
+									<span class="image"><img src = '../images/prj_ngrinder/r&e_2.PNG' alt="" style="max-width:100%; height:auto;padding-bottom: 10px"></span>
+									<ul>
+										<li>타겟 페이지의 용량이 5.8m 인 것을 고려하여 메모리 최소는 5.8 로 잡고 테스트를 시도하였으나, 웹서버 자체가 올라가지 않아 테스트 실행 불가</li>
+										<li>이 점을 미루어 보아, 컨테이너가 뜨는 데에도 최소한의 메모리가 있을 것이라고 판단</li>
+									</ul>
+
+									<span class="image"><img src = '../images/prj_ngrinder/r&e_3.PNG' alt="" style="max-width:100%; height:auto;padding-bottom: 10px"></span>
+									<ul>
+										<li>이에 메모리의 변화에 따른 퍼포먼스를 확인하기 위해 cpu는 0.01 으로 고정 후, 64m 을 시작으로 32m, 16m 으로 점차 scale down 진행</li>
+									</ul>
+
+									<span class="image"><img src = '../images/prj_ngrinder/r&e_4.PNG' alt="" style="max-width:100%; height:auto;padding-bottom: 10px"></span>
+									<ul>
+										<li>이번에는 cpu 의 영향을 확인하기 위해 메모리는 64m 으로 고정 후, cpu 는 0.01 을 최소로 잡고 0.1,0.2,0.5 으로 점차 scale up 진행</li>
+										<li>error rate는 cpu가 증가함에 따라 미비하나 감소하는 추세를 확인</li>
+										<li>반면, 첫 에러가 나타나는 error time은 점차 앞당겨지며 run time 은 점차 짧아지는 것을 확인</li>
+									</ul>
+
+									<span class="image"><img src = '../images/prj_ngrinder/r&e_5.PNG' alt="" style="max-width:100%; height:auto;padding-bottom: 10px"></span>
+									<ul>
+										<li>앞선 테스트에서 명확한 memory와 cpu의 영향도가 파악이 되지 않아 cpu와 memory를 상대적으로 극단적으로 변동된 큰값으로 설정</li>
+										<li>error rate는 낮은 값이 나온 듯 하나, error time 은 매우 앞당겨졌으며, run time은 별다른 증가 추세를 보이지않음</li>
+									</ul>
+								</div>
+								<hr>
+								<h3 ><b>✔️ Test 성능 지표 : tps, mtt, errors</b></h3>
+								<div>
+									<ul>
+										<li>tps는 달리한 조건에 따라 상이한 그림을 보이지 않고 전반적으로 요동치는 것을 미루어보아, tps 로 성능을 판단하기에 적합하지 않다고 판단</li>
+										<li>mtt 는 vuser 가 늘어감에 따라 점차 증가하는 추세이고 errors 는 대략 1분40초 기점으로 증가하다 2분 전후로 중단되는 추세를 공통적으로 보이고 있기에
+											error 가 처음 발생하는 지점을 뒤로 늦추고 전체적인 에러율을 낮추거나 mtt 의 최고점을 낮춰보는 식으로 성능 튜닝이 진행되면 보다 유의미한 결과를 볼 수 있을 것으로 판단</li>
+									</ul>
+									<ol>
+										<li><b>server:2 blog_cpu: 0.01 blog_mem: 64</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_1.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server:2 blog_cpu: 0.01 blog_mem: 32</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_2.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server:2 blog_cpu: 0.01 blog_mem: 32</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_3.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server:2 blog_cpu: 0.01 blog_mem: 16</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_4.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server:2 blog_cpu: 0.1 blog_mem: 64</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_5.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server: 2 blog_cpu: 0.2 blog_mem: 64</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_6.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server: 2 blog_cpu: 0.5 blog_mem: 64</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_7.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+										<li><b>server: 2 blog_cpu: 0.5 blog_mem: 1024</b></li>
+										<span class="image"><img src = '../images/prj_ngrinder/test_result_8.PNG' alt="" style="max-width:100%; height:auto;padding: 10px"></span>
+									</ol>
+								</div>
+								<hr>
+								<h3 ><b>💪 향후 보완점</b></h3>
+								<div>
+									<ul>
+										<li>웹서버 구성 변경</li>
+										<div>
+											&nbsp;&nbsp;- httpd server scale out <br>
+											&nbsp;&nbsp;- nginx server에 대한 cpu, memory limit test
+										</div>
+										<li>웹서버 머신 htop과 docker stat 비교</li>
+										<li>로드밸런서와 웹서버 어느 곳의 리소스가 더 필요할지 확인</li>
+										<li>웹서버 머신 자체의 리소스 부족은 없을지</li>
+										<li>웹서버 머신 변경 : 웹서버를 클라우드 환경에서 띄어보거나 다른 pc 로 바꿔볼 것</li>
+										<li>캐싱 추가</li>
+										<div>&nbsp;&nbsp;- nginx, httpd 서버에 추가적인 설정을 하면 성능이 더 좋아질까</div>
+
+									</ul>
+								</div>
+							</div>
 					
 							
 						</section>
@@ -147,35 +217,19 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<!-- <section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Profile</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>경기도 구리시</dd>
-								<dt>Email</dt>
-								<dd><a href="#">soobeen.byul@gmail.com</a></dd>
-							</dl>
-						</section> -->
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
